@@ -17,13 +17,13 @@
           applicationServerKey:
             'BDzENML3i3olOw6dc77yKit2xluLrP1_t0S0rlz_UqC8gTTcq4ZYhY_tiMKQE4IlJ-KSNt45DRYSIrvf6BfxkKE'
         });
-        console.log(JSON.stringify(push));
+        console.log(JSON.stringify(push),"===push");
       }
 
       if ('serviceWorker' in navigator) {
         addEventListener('load', async () => {
           let sw = await navigator.serviceWorker.register('./sw.js');
-          console.log(sw);
+          console.log(sw,"====sw");
         });
       }
     </script>
