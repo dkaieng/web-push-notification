@@ -16,12 +16,6 @@ webpush.setVapidDetails(
 );
 
 // This is the same output of calling JSON.stringify on a PushSubscription
-const pushSubscription = {
-  endpoint: '.....',
-  keys: {
-    auth: '.....',
-    p256dh: '.....'
-  }
-};
+const pushSubscription = {"endpoint":"https://fcm.googleapis.com/fcm/send/cPaocvrv9Ic:APA91bHiDgM84B4dFyy2m_Rr5HfXBbyo45_6dqAoEurRbIpdq9SFHzs8VByILn2WY8ASNbAVAahUtK_nUd1aFJxoKbVUrEPGCopmEUkJlMicjm23iLh7Gy-WwE3JGWMEYvVoKteql_1D","expirationTime":null,"keys":{"p256dh":"BNLelDOEpgjAVXSdjBZPV83DFNqLWLipdGcsNjoVVmNehTvAMA-iigfwgU-Vq9QB_DbrZyYiCWS8YXkXQwXn2H8","auth":"HG-5i7jZ8I3pc0DJ4vLteg"}}
 
-webpush.sendNotification(pushSubscription, 'Your Push Payload Text');
+webpush.sendNotification(pushSubscription, 'hhhhhhh');
